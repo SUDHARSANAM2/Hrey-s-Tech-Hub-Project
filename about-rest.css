@@ -1,0 +1,81 @@
+
+#enter img{
+    width: 100%;
+    height: 700px;
+    /* position: relative; */
+}
+#enter h2{
+    /* border: 1px solid red; */
+    height: 200px;
+    color: orangered;
+    margin-top: -180px;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+}
+#welcome h6, #welcome h1{
+    text-align: center;
+
+}
+#welcome h1{
+    font-family: 'Peralta', cursive;
+    font-weight: bolder;
+    color: orangered;
+
+}
+#welcome h6{
+    font-size: 20px;
+    word-spacing: 10px;
+}
+#welcome p{
+    text-align: justify;
+    text-align-last: center;
+    line-height:2 ;
+}
+#welcome{
+    /* border: 1px red solid; */
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+#elon{
+    text-align: center;
+}
+#elon img{
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+}
+#elon p{
+    font-weight: bold;
+}
+#history h2{
+    font-weight: bolder;
+    font-family: 'Peralta', cursive;
+    color: white;
+}
+#history p{
+    /* border: 1px red solid; */
+    width: 30%;
+    font-weight: 500;
+    text-align: justify;
+}
+#bg{
+    background-color: orangered;
+    padding: 20px;
+}
+#foddel a{
+    color: black;
+    text-decoration: none;
+    /* margin-left: 300px; */
+    position: relative;
+    justify-content: center;
+    font-size: 50px;
+}
+#foddel{
+    /* border: 1px red solid; */
+    width: 100%;
+    /* height: 200px; */
+    background-color: yellow;
+    padding: 80px;
+}
