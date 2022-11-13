@@ -1,0 +1,329 @@
+*{
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+/* header */
+#cmp{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1;
+    /* border:1px solid red; */
+
+}
+
+#cmp small{
+     float: right;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#cmp h1{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 50px;
+
+}
+#navbar{
+    text-align: center;
+}
+#navbar ul li{
+    margin: 20px;
+    padding-top:30px ;
+    font-size: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav{
+    margin-bottom: 2rem;border: none;
+    /* position: sticky;
+    top: 0px ; */
+
+    position: relative;
+}
+#navbar ul li a:hover{
+    font-size: large;
+    color: deepskyblue;
+}
+
+/* section */
+/* Delight the TRADITIONAL TASTE OF LIFE */
+
+
+#traditional img{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+#traditional .group{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.group p{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+.group h6 {
+    position: relative;
+    text-align: center;
+    /* margin-top: -580px; */
+    font-size: 50px;
+    line-height: 1.6;
+    color: #000;
+}
+
+.group p button{
+    background-color: deepskyblue;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.group p  :hover{
+    padding:13px ;
+    background-color: blue;
+    color: rgb(255, 255, 255)
+}
+.group{
+    /* border: 1px dotted black; */
+    /* width: 100%; */
+
+    position: relative;
+    background-position: center;
+}
+/* djclcljc */
+#carouselgrill img{
+    width: 30%;
+    float: left;
+}
+.ourstory{
+    text-align: center;  
+    position: relative;
+    /* border: 2px solid rebeccapurple; */
+}
+.ourstory p{
+   border: 0px solid rebeccapurple;
+   width: 70%;
+   margin-left: 15%;
+   line-height: 2;
+   word-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-align-last:center ;
+
+}
+.ourstory h1{
+    font-family: 'Peralta', cursive;
+    color: orange;
+}
+.ourstory button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.ourstory button:hover{
+    background-color: rgba(255, 255, 0, 0.89);
+
+}
+#mem{
+    border: 2px solid #000;
+    background-image: linear-gradient(to right top, #000b18, #081929, #09243a, #07304d, #013c61);
+
+}
+
+#carouselExampleDark {
+    width: 500px;
+    padding: 20px;
+    float: left;
+    margin-top: 20px;
+}
+#journey{
+    border: 0ch;
+    position: relative;
+    text-align: center;
+    line-height: 2;
+    word-spacing: 5px;
+    padding: 30px;
+    /* font-family: 'Peralta', cursive; */
+font-family: 'Poppins', sans-serif;
+}
+#journey button{
+    font-weight: bold;
+}
+#journey h5,#journey p{
+    color: #fff;
+}
+#journey p{
+    text-align: justify;
+    text-align-last:center ;
+}
+#journey button:hover{
+    background-color: yellow;
+    font-size: large;
+}
+#journey h2{
+    font-family: 'Peralta', cursive;
+    font-weight: bolder;
+    color: orangered;
+}
+.recipies{
+    position: relative;
+
+}
+.recipies img{
+    width: 100%;
+    height: 300px;
+}
+#delicious h1,#delicious h6 {
+    text-align: center;  
+     color: white;
+     position: relative;
+}
+
+#delicious{
+    height: 200px;
+    margin-top: -200px;
+}
+#menu{
+    /*  */
+    position: relative;
+
+}
+.fgsdf{
+    border: #000 1px solid;
+}
+#menu img{
+    padding: 20px;
+    float: left;
+    position: relative;
+}
+#menu #menu-3{
+    width:20%;
+    height: 180px;
+    margin-top:200px;
+    margin-left: -270px;
+
+}
+.specialmenu{
+    /* border: 1px solid black; */
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    /*  */
+    position: relative;
+    
+
+}
+.specialmenu h1 {
+    font-size: 40px;
+}
+.specialmenu h4{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.specialmenu p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+    word-spacing: 6px;
+    padding: 50px;
+    text-align: justify;
+    text-align-last:center ;
+    width: 40%;
+    float: right;
+}
+/* iam theif */
+ #carouselimg{
+    width: 30%;
+    margin-left: 30px;
+    /*  */
+    position: relative;
+
+ }
+
+#tastypoint{
+    /*  */
+    /* position: relative; */
+
+    padding: 50px;
+    background-color: orange;
+    color: white;
+}
+#tastypoint h1{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    /* color: white; */
+}
+#tastypoint a{
+    text-decoration: none;
+    color: white;
+}
+#tastypoint h6{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#deliver{
+    /*  */
+    /* position: relative; */
+
+    border-top: 1px solid #fff;
+    padding: 50px;
+    background-color: rgba(255, 255, 0, 0.897);
+    color: black;
+}
+#deliver h3, #deliver h5{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#deliver h3{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+}
+#deliver h3{
+    padding-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+#bot{
+    background-color: #000;
+    
+}
+#trust{
+    color: #fff;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.foot ul li a:hover{
+    font-size: large;
+}
+.copyright{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 5px;
+    padding-bottom: -7px-;
+    background-color: rgba(66, 65, 65, 0.582);
+    color: white;
+}
+#custom p{
+    padding-left: 35px;
+}
