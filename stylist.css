@@ -5,7 +5,9 @@
 }
 
 body{
-    margin: 0 ;
+    max-width: auto ;
+    position: relative;
+    height : auto ;
 
 
 
