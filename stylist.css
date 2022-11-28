@@ -1,17 +1,8 @@
-*{
-    /* width: 100%; */
-    margin: auto;
-    padding: auto;
-    width: 100% ;
-}
 
 body{
     max-width: auto ;
     position: relative;
     height : auto ;
-
-
-
 }
 /* header */
 #cmp{
